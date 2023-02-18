@@ -1,0 +1,739 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="sss.css">
+  <script src="sss.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <!-- nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./Index.html">♕ स्वर्णकार शिक्षा सदन ♕</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./Index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#divAbout">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="https://goo.gl/maps/ZHFpEtdMgREFBN8s7" tabindex="-1"
+              aria-disabled="true">Location</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#contact" tabindex="-1"
+              aria-disabled="true">Contact us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <button type="button" class="btn btn-info" onclick="window.location.href='./logsign.html';"> Login</button>
+          <button type="button" class="btn btn-info" style="margin-left: 5px; margin-right: 5px;"
+            onclick="window.location.href='./logsign.html';">SignUp</button>
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- heading -->
+  <!-- <h2>मैढ़ क्षत्रिय स्वर्णकार वेलफेयर सोसायटी द्वारा संचालित स्वर्णकार शिक्षा सदन </h2> -->
+
+  <!-- sliding -->
+  <div class="container" id="navBar">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://serving.photos.photobox.com/72204241a82bed0f9b9a93573e4181c64b44709d33eef7bca3e4c21704efc79032633428.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://serving.photos.photobox.com/48209101c5a5934265ff0bd5099c40ca874c2343b08083788212a78eda2079cae60e7baf.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://serving.photos.photobox.com/31630183a71a9d1f190d78e376c1c679f8f0cc9db38a95af9a335437c1bccd9b1f231769.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://serving.photos.photobox.com/65305894d9d08ba8f114a4305e334467f6a5ea4f20f77e3e38c11c2981f1ab0c36a447cc.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://serving.photos.photobox.com/76738709c88e4cfe350f5a9908730bb0b3088b1406decb4c97c589f80dd3ef97f65c7a43.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- buttons -->
+  <div class="container" id="topbtn">
+    <button type="button" class="btn btn-primary" id="btn1" onclick="btn1function()"> <a href="#s1"
+        style="color: white; text-decoration: none;">Committee</a> </button>
+    <button type="button" class="btn btn-success" id="btn2" onclick="btn2function()">Students</button>
+    <button type="button" class="btn btn-warning" id="btn3" onclick="btn3function()">Our Staff</button>
+  </div>
+
+
+
+
+  <!-- about page -->
+  <div id="divAbout">
+    <div class="container" style="margin-bottom: 40px; ">
+      <section id="about" class="about pt-0">
+
+        <div class="container aos-init aos-animate" data-aos="fade-up">
+          <h3>About Us</h3>
+          <div class="row gy-4">
+
+            <div class="col-lg-6 position-relative align-self-start order-lg-last order-first"> <img
+                src="https://images.pexels.com/photos/932328/pexels-photo-932328.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                class="img-fluid" alt=""> <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
+                class="glightbox play-btn"></a></div>
+            <div class="col-lg-6 content order-last order-lg-first">
+              <!-- <h3>About Us</h3> -->
+              <p> The hostal is located in the center of Madrid, close to the most important tourist attractions. It has
+                a
+                large garden with a pool and sunbathing area, free Wi-Fi throughout the building, 24-hour reception and
+                check-out service. The rooms are equipped with air conditioning, private bathroom with shower or
+                bathtub,
+                hairdryer and towels included in the price.
+
+                The hostal is located in one of Madrid’s most emblematic areas: Salamanca district. This area was built
+                between 18th and 19th centuries as an aristocratic residential</p>
+              <ul>
+                <li data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate"> <i
+                    class="bi bi-diagram-3"></i>
+                  <div>
+                    <h5>Somethind else about us</h5>
+                    <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+                  </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="200" class="aos-init aos-animate"> <i
+                    class="bi bi-fullscreen-exit"></i>
+                  <div>
+                    <h5>If needed we will add more about</h5>
+                    <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
+                  </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300" class="aos-init aos-animate"> <i
+                    class="bi bi-broadcast"></i>
+                  <div>
+                    <h5>Or bhi kuch likhna ho to likh denge</h5>
+                    <p>Et velit et eos maiores est tempora et quos dolorem autem tempora incidunt maxime veniam</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+
+  <!-- scroll to top button -->
+  <div class="sticky-container">
+    <button class="sticky-button"> <a href="#navBar" style="text-decoration: none;"> <b><i
+            class="bi bi-arrow-up"></b></i> </a> </i></button>
+  </div>
+
+
+
+
+
+
+  <!-- commitee members -->
+  <div class="container-fluid" id="s1">
+
+    <h2 style="text-align: center; color: #e100ee; font-family: cursive; "> ::Committee members::</h2>
+    <div class="container" style="margin-top: 50px; padding-bottom: 15px;">
+      <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3">
+        <div class="col">
+          <!-- first card -->
+          <div class="row g-0" id="card1">
+            <div class="col-md-7">
+              <img src="https://serving.photos.photobox.com/79377089566dcf8243c8eab1a96a9302eeddab6e4ed4084b76a464f7bf5cc43a9f6b925f.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-5">
+              <div class="card-body">
+                <p id="memberPost">अध्यक्ष </p>
+                <h5 class="card-title">Tarun Soni</h5>
+                <p class="card-text"> This content is a little bit longer.</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col">
+          <!-- second card -->
+          <div class="row g-0" id="card1">
+            <div class="col-md-7">
+              <img src="https://serving.photos.photobox.com/713838509011956b4255db1a0a5a6152d3f3a03bfb57002969813b3c379c30b22ffc8cba.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-5">
+              <div class="card-body">
+                <p id="memberPost">महामंत्री </p>
+                <h5 class="card-title">Sudhir Soni</h5>
+                <p class="card-text"> This content is a little bit longer.</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col">
+          <!-- third card -->
+          <div class="row g-0" id="card1">
+            <div class="col-md-7">
+              <img src="https://serving.photos.photobox.com/35261849bcdab7df1e5942e7a619d04cd098edbac320197869e23c4ef930888662e85e5a.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-5">
+              <div class="card-body">
+                <p id="memberPost">कोषाध्यक्ष </p>
+                <h5 class="card-title">vishnu ji</h5>
+                <p class="card-text"> This content is a little bit longer.</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <!-- forth card -->
+          <div class="row g-0" id="card1">
+            <div class="col-md-7">
+              <img src="https://serving.photos.photobox.com/4724751163f4c6e2b78c7350d92dbffb25ce6537346c36a59676e717bbf28decc9cbc8e3.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-5">
+              <div class="card-body">
+                <p id="memberPost">उपाध्यक्ष </p>
+                <h5 class="card-title">Akshat Soni</h5>
+                <p class="card-text"> This content is a little bit longer.</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="col">
+          <!-- fifth card -->
+          <div class="row g-0" id="card1">
+            <div class="col-md-7">
+              <img src="https://serving.photos.photobox.com/3425739389660b45897b85e7488775d7a5c6ad337f41e2df80ca8e0e352dd3acb5107e2a.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-5">
+              <div class="card-body">
+                <p id="memberPost">संगठन मंत्री</p>
+                <h5 class="card-title">Devi Lal Soni</h5>
+                <p class="card-text"> This content is a little bit longer.</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+
+        <div class="col">
+          <!-- sixth card -->
+          <div class="row g-0" id="card1">
+            <div class="col-md-7">
+              <img src="https://serving.photos.photobox.com/56002479a8a4ead7614b5e7d0105f2c9c174a3ca4e0a3294e4970328c3c08677e0b05fa4.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-5">
+              <div class="card-body">
+                <p id="memberPost">संयुक्त मंत्री</p>
+                <h5 class="card-title">Sumit Soni</h5>
+                <p class="card-text"> This content is a little bit longer.</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+        <div class="col">
+          <!-- seventh card-->
+          <div class="row g-0" id="card1">
+            <div class="col-md-7">
+              <img src="https://serving.photos.photobox.com/870099765839e1110f81cc4e55930e8499a87b2f3236b4ddbb900637b3da2c4c4a03a084.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-5">
+              <div class="card-body">
+                <p id="memberPost">प्रचार मंत्री</p>
+                <h5 class="card-title">Anil Soni</h5>
+                <p class="card-text"> This content is a little bit longer.</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <!-- vision and mission -->
+
+  <section id="vision" class="services pt-0">
+    <div class="container aos-init aos-animate" data-aos="fade-up" style="padding-top: 70px;">
+      <div class="section-header" style="text-align: center; font-family: cursive; color: #e100ee;">
+        <h1> Our Vision & Mission </h1>
+      </div>
+      <div class="row gy-4" style="margin-top: 10px;">
+        <div class="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <div class="card" id="visionCard">
+            <div class="card-img"> <img
+                src="https://images.pexels.com/photos/8079181/pexels-photo-8079181.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                alt="" class="img-fluid"></div>
+            <h3><a href="service-details.html" class="stretched-link">Storage</a></h3>
+            <p>Cumque eos in qui numquam. Aut aspernatur perferendis sed atque quia voluptas quisquam repellendus
+              temporibus itaqueofficiis odit</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+          <div class="card" id="visionCard">
+            <div class="card-img"> <img
+                src="https://images.pexels.com/photos/325135/pexels-photo-325135.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                alt="" class="img-fluid"></div>
+            <h3><a href="service-details.html" class="stretched-link">Logistics</a></h3>
+            <p>Asperiores provident dolor accusamus pariatur dolore nam id audantium ut et iure incidunt molestiae dolor
+              ipsam ducimus occaecati nisi</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+          <div class="card" id="visionCard">
+            <div class="card-img"> <img
+                src="https://images.pexels.com/photos/375889/pexels-photo-375889.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                alt="" class="img-fluid"></div>
+            <h3><a href="service-details.html" class="stretched-link">Cargo</a></h3>
+            <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque oluptatem
+              aut et molestiae ut et nihil</p>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="600">
+          <div class="card" id="visionCard">
+            <div class="card-img"> <img
+                src="https://images.pexels.com/photos/2781814/pexels-photo-2781814.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                alt="" class="img-fluid"></div>
+            <h3><a href="service-details.html" class="stretched-link">Warehousing</a></h3>
+            <p>Quas assumenda non occaecati molestiae. In aut earum sed natus eatae in vero. Ab modi quisquam aut
+              nostrum unde et qui est non quo nulla</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- Recent events -->
+  <div id="events">
+    <h1 style="font-family: cursive; text-align: center; color: rgb(150, 250, 216); "> ::Recent Events:: </h1>
+    <div class="container  d-flex row" id="recentEvent1">
+      <div class="card mb-3  col-lg-3 col-md-12" id="RE1">
+        <img src="https://serving.photos.photobox.com/85036690f496e54c1c191a09ddf3bcb8ba2148af39749e76079e7e95e8cbe6d531b85499.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content.
+            This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card mb-3  col-lg-3 col-md-12" id="RE1">
+        <img src="https://serving.photos.photobox.com/85036690f496e54c1c191a09ddf3bcb8ba2148af39749e76079e7e95e8cbe6d531b85499.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content.
+            This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-12" id="RE1">
+        <img src="https://serving.photos.photobox.com/85036690f496e54c1c191a09ddf3bcb8ba2148af39749e76079e7e95e8cbe6d531b85499.jpg" class="card-img " alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content.
+            This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card mb-3  col-lg-3 col-md-12" id="RE1">
+        <img src="https://serving.photos.photobox.com/85036690f496e54c1c191a09ddf3bcb8ba2148af39749e76079e7e95e8cbe6d531b85499.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content.
+            This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container  d-flex row" id="recentEvent2" style="">
+      
+      <div class="card mb-3  col-lg-3 col-md-12" id="RE1">
+        <img src="https://serving.photos.photobox.com/85036690f496e54c1c191a09ddf3bcb8ba2148af39749e76079e7e95e8cbe6d531b85499.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content.
+            This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-12" id="RE1">
+        <img src="https://serving.photos.photobox.com/394099735273f81f4d37997b9fdc0db7bef908922217b1232a6cfc2225cd48222d36b35b.jpg" class="card-img " alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content.
+            This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- photo gallery -->
+  <main id="main" data-aos="fade" class="aos-init aos-animate">
+    <h1 style="text-align: center; color: rgb(255 191 241); font-family: cursive;">Photo Gallery 💕</h1>
+    <section id="gallery" class="gallery">
+      <div class="container-fluid">
+        <div class="row gy-4 justify-content-center">
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100"> <img
+                src="https://images.pexels.com/photos/3762800/pexels-photo-3762800.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center"> <a
+                  href="assets/img/gallery/gallery-1.jpg" title="Gallery 1" class="glightbox preview-link"><i
+                    class="bi bi-arrows-angle-expand"></i></a> <a href="gallery-single.html" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a></div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100"> <img
+                src="https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center"> <a
+                  href="assets/img/gallery/gallery-5.jpg" title="Gallery 5" class="glightbox preview-link"><i
+                    class="bi bi-arrows-angle-expand"></i></a> <a href="gallery-single.html" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a></div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100"> <img
+                src="https://images.pexels.com/photos/267491/pexels-photo-267491.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center"> <a
+                  href="assets/img/gallery/gallery-6.jpg" title="Gallery 6" class="glightbox preview-link"><i
+                    class="bi bi-arrows-angle-expand"></i></a> <a href="gallery-single.html" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a></div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100"> <img
+                src="https://images.pexels.com/photos/267569/pexels-photo-267569.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center"> <a
+                  href="assets/img/gallery/gallery-7.jpg" title="Gallery 7" class="glightbox preview-link"><i
+                    class="bi bi-arrows-angle-expand"></i></a> <a href="gallery-single.html" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a></div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100"> <img
+                src="https://images.pexels.com/photos/1516440/pexels-photo-1516440.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center"> <a
+                  href="assets/img/gallery/gallery-8.jpg" title="Gallery 8" class="glightbox preview-link"><i
+                    class="bi bi-arrows-angle-expand"></i></a> <a href="gallery-single.html" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a></div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100"> <img
+                src="https://images.pexels.com/photos/2263436/pexels-photo-2263436.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center"> <a
+                  href="assets/img/gallery/gallery-9.jpg" title="Gallery 9" class="glightbox preview-link"><i
+                    class="bi bi-arrows-angle-expand"></i></a> <a href="gallery-single.html" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a></div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100"> <img
+                src="https://images.pexels.com/photos/306046/pexels-photo-306046.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center"> <a
+                  href="assets/img/gallery/gallery-10.jpg" title="Gallery 10" class="glightbox preview-link"><i
+                    class="bi bi-arrows-angle-expand"></i></a> <a href="gallery-single.html" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a></div>
+            </div>
+          </div>
+
+
+
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100"> <img
+                src="https://images.pexels.com/photos/433452/pexels-photo-433452.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center"> <a
+                  href="assets/img/gallery/gallery-16.jpg" title="Gallery 16" class="glightbox preview-link"><i
+                    class="bi bi-arrows-angle-expand"></i></a> <a href="gallery-single.html" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <button id="morePhotos" onclick="window.location.href='gallery.html'">More Photos</button>
+  </main>
+
+  <!-- food menu -->
+
+  <section id="menu" class="menu">
+    <div class="container aos-init aos-animate" data-aos="fade-up">
+      <div class="section-header">
+        <h2>Our Food</h2>
+        <p> Our <span>Yummy and Healthy food</span></p>
+      </div>
+      <ul class="nav nav-tabs d-flex justify-content-center aos-init aos-animate" data-aos="fade-up"
+        data-aos-delay="200" role="tablist">
+
+        <li class="nav-item" role="presentation"> <a class="nav-link active show" data-bs-toggle="tab"
+            data-bs-target="#menu-breakfast" aria-selected="false" tabindex="-1" role="tab">
+            <h4>Khana khajana</h4>
+          </a></li>
+
+        <div class="tab-content aos-init aos-animate" data-aos="fade-up" data-aos-delay="300" style="margin-top: 10px;">
+          <div class="tab-pane fade active show" id="menu-starters" role="tabpanel">
+            <div class="tab-header text-center">
+
+            </div>
+            <div class="row gy-5">
+              <div class="col-lg-4 menu-item"> <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img
+                    src="https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    class="menu-img img-fluid" alt=""></a>
+
+                <p class="ingredients"> Lorem, deren, trataro, filede, nerada</p>
+
+              </div>
+              <div class="col-lg-4 menu-item"> <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img
+                    src="https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    class="menu-img img-fluid" alt=""></a>
+
+                <p class="ingredients"> Lorem, deren, trataro, filede, nerada</p>
+
+              </div>
+              <div class="col-lg-4 menu-item"> <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img
+                    src="https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    class="menu-img img-fluid" alt=""></a>
+
+                <p class="ingredients"> Lorem, deren, trataro, filede, nerada</p>
+
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- contact us -->
+  <section id="contact" class="contact">
+    <div class="container aos-init aos-animate" data-aos="fade-up">
+      <div class="section-title">
+        <h2>Contact</h2>
+        <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.</p> -->
+      </div>
+      <div class="row">
+        <div class="col-lg-5 d-flex align-items-stretch">
+          <div class="info">
+            <div class="address"> <i class="bi bi-geo-alt"></i>
+              <h4>Location:</h4>
+              <p>Plot No D-4, opp. Homoeopathy University, Ward No 36, Saipura, Sanganer, Jaipur, Rajasthan 302029</p>
+            </div>
+            <div class="email"> <i class="bi bi-envelope"></i>
+              <h4>Email:</h4>
+              <p>tsoni9742@gmail.com</p>
+            </div>
+            <div class="phone"> <i class="bi bi-phone"></i>
+              <h4>Call:</h4>
+              <p>+918690708302</p>
+            </div>
+             <!-- <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+              frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen=""></iframe> -->
+          </div>
+        </div>
+        <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="row">
+              <div class="form-group col-md-6"> <label for="name">Your Name</label> <input type="text" name="name"
+                  class="form-control" id="name" required=""></div>
+              <div class="form-group col-md-6"> <label for="name">Mobile no.</label> <input type="number"
+                  class="form-control" name="number" id="number" required=""></div>
+            </div>
+            <!-- <div class="form-group"> <label for="name">Subject</label> <input type="text" class="form-control"
+                name="subject" id="subject" required=""></div> -->
+            <div class="form-group"> <label for="name">Suggestion/ Message</label><textarea class="form-control" name="message"
+                rows="6" required=""></textarea></div>
+            <div class="my-3">
+              <!-- <div class="loading">Loading</div> -->
+              <!-- <div class="error-message"></div> -->
+              <!-- <div class="sent-message">Your message has been sent. Thank you!</div> -->
+            </div>
+            <div id="last-submit-btn">Send Message</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script src="sss.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
+  <script>
+
+  </script>
+
+
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
